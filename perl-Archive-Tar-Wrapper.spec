@@ -4,7 +4,7 @@
 #
 Name     : perl-Archive-Tar-Wrapper
 Version  : 0.33
-Release  : 5
+Release  : 6
 URL      : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.33.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.33.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/liba/libarchive-tar-wrapper-perl/libarchive-tar-wrapper-perl_0.28-1.debian.tar.xz
@@ -13,10 +13,15 @@ Group    : Development/Tools
 License  : GPL-3.0
 Requires: perl-Archive-Tar-Wrapper-license = %{version}-%{release}
 BuildRequires : buildreq-cpan
+BuildRequires : perl(Class::XSAccessor)
 BuildRequires : perl(Dumbbench)
 BuildRequires : perl(File::Which)
 BuildRequires : perl(IPC::Run)
 BuildRequires : perl(Log::Log4perl)
+BuildRequires : perl(Number::WithError)
+BuildRequires : perl(Params::Util)
+BuildRequires : perl(Statistics::CaseResampling)
+BuildRequires : perl(prefork)
 
 %description
 # NAME
