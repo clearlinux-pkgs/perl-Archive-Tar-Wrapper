@@ -4,10 +4,10 @@
 #
 Name     : perl-Archive-Tar-Wrapper
 Version  : 0.36
-Release  : 12
+Release  : 13
 URL      : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.36.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.36.tar.gz
-Summary  : "API wrapper around the 'tar' utility"
+Summary  : API wrapper around the 'tar' utility
 Group    : Development/Tools
 License  : GPL-3.0
 Requires: perl-Archive-Tar-Wrapper-license = %{version}-%{release}
