@@ -1,10 +1,4 @@
-0.37
-perl(Class::XSAccessor)
-perl(Dumbbench)
+0.38
 perl(File::Which)
 perl(IPC::Run)
 perl(Log::Log4perl)
-perl(Number::WithError)
-perl(Params::Util)
-perl(Statistics::CaseResampling)
-perl(prefork)
