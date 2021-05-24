@@ -4,7 +4,7 @@
 #
 Name     : perl-Archive-Tar-Wrapper
 Version  : 0.38
-Release  : 24
+Release  : 25
 URL      : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.38.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.38.tar.gz
 Summary  : "API wrapper around the 'tar' utility"
