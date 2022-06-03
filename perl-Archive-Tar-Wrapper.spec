@@ -4,7 +4,7 @@
 #
 Name     : perl-Archive-Tar-Wrapper
 Version  : 0.38
-Release  : 25
+Release  : 26
 URL      : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.38.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.38.tar.gz
 Summary  : "API wrapper around the 'tar' utility"
@@ -102,4 +102,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Archive/Tar/Wrapper.pm
+/usr/lib/perl5/*
