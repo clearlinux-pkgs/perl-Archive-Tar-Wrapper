@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : perl-Archive-Tar-Wrapper
-Version  : 0.39
-Release  : 30
-URL      : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.39.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.39.tar.gz
+Version  : 0.40
+Release  : 31
+URL      : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.40.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.40.tar.gz
 Summary  : "API wrapper around the 'tar' utility"
 Group    : Development/Tools
 License  : GPL-3.0
@@ -55,10 +55,10 @@ perl components for the perl-Archive-Tar-Wrapper package.
 
 
 %prep
-%setup -q -n Archive-Tar-Wrapper-0.39
-cd %{_builddir}/Archive-Tar-Wrapper-0.39
+%setup -q -n Archive-Tar-Wrapper-0.40
+cd %{_builddir}/Archive-Tar-Wrapper-0.40
 pushd ..
-cp -a Archive-Tar-Wrapper-0.39 buildavx2
+cp -a Archive-Tar-Wrapper-0.40 buildavx2
 popd
 
 %build
