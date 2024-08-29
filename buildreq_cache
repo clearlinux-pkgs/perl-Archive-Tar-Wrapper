@@ -1,5 +1,4 @@
-0.41
-perl(Dumbbench)
+0.42
 perl(File::Which)
 perl(IPC::Run)
 perl(Log::Log4perl)
